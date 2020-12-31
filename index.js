@@ -50,7 +50,14 @@ function findEmployeeByFirstName(srcArray,firstName){
   return srcArray.find(a => a.firstName===firstName);
 }
 
+return payable
+}
 
+
+function calculatePayroll(Array){
+  let payroll= Array.reduce((sum,item)=>sum + allWagesFor.call(item),0);
+  return payroll;
+} 
 
 /*
  We're giving you this function. Take a look at it, you might see some usage
